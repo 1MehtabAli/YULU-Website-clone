@@ -1,0 +1,75 @@
+#main1 {
+  height: 100vh;
+  /* border: 2px solid green; */
+  width: 100%;
+  overflow: hidden;
+}
+#main1 video {
+  width: 100%;
+  /* z-index: -5; */
+}
+#main1 > div:first-of-type {
+  background-image: url("https://yulu-blogs-cdn.yulu.bike/Home_banner_overlay_50725aa4e8.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#main1 > div section {
+  /* border: 2px solid pink; */
+  /* height: 50%; */
+  width: 80%;
+  position: absolute;
+  top: 46vh;
+  margin-left: 13.5%;
+}
+#main1 > div section div:first-child {
+  font-size: 68px;
+  color: var(--white-font);
+  font-weight: 700;
+  line-height: 77px;
+}
+#main1 > div section div:first-child span {
+  color: var(--blue-color);
+}
+#main1 > div section div:nth-child(2) {
+  color: var(--white-font);
+  margin-bottom: 70px;
+}
+#main1 > div section div button {
+  font-size: 18px;
+  padding: 8px 32px;
+  background-color: var(--blue-color);
+  border: none;
+  cursor: pointer;
+  transition: all 600ms;
+}
+#main1 > div section div button:hover {
+  background-color: #071228;
+  color: var(--white-font);
+}
+#main1 > div section div button i {
+  font-size: 25px;
+  margin-top: 5px;
+}
+#icon-bottom {
+  background-color: var(--blue-color);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 55px;
+  height: 55px;
+  border-radius: 34px 8px 34px 34px;
+  box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.26);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#icon-bottom i {
+  font-size: 25px;
+  color: #3a4b67;
+}
+#icon-bottom:hover {
+  cursor: pointer;
+}
