@@ -1,0 +1,139 @@
+#sect{
+    height: 83vh;
+}
+#sect main{
+    display: flex;
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 72.5%;
+    height: 100%;
+    justify-content: space-between;
+}
+#sect main>aside{
+    /* border: 2px solid yellow; */
+    margin-top: 50px;
+    width: 22%;
+}
+#sect main>aside h1{
+    font-size: 34px;
+    font-weight: 700;
+}
+#sect main>aside h6{
+    margin-top: 42px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#sect main>aside ol{
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 63%;
+    margin-top: 3px;
+}
+#sect main>aside ol li:hover{
+    cursor: pointer;
+}
+#sect main>aside main{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 70%;
+    
+}
+#sect main>aside main div div{
+    display: flex;
+}
+#sect main>aside main div span:first-child{
+    font-size: 20px;
+    font-weight: 700;
+}
+#sect main>aside main div span:last-child{
+    font-size: 12px;
+    color: #d0ddf4;
+    font-weight: 700;
+}
+#sect main>aside main>div:last-child{
+    display: flex;
+}
+#sect main>aside main>div:last-child aside i{
+    color: var(--blue-color);
+    font-size: 20px;
+}
+#sect main>aside main>div:last-child aside:first-child, #sect main>aside main>div:last-child aside:last-child{
+    border: 2px solid var(--blue-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+    cursor: pointer;
+}
+#sect main>aside main>div:last-child aside:nth-child(2){
+    width: 27px;
+    border-top: 2px solid var(--blue-color);
+    position: relative;
+    top: 12px;
+}
+#sect main section{
+    /* border: 2px solid green; */
+    width: 70%;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    gap: 30px;
+}
+#sect main section div:first-child{
+    margin-left: 15px;
+}
+#sect main section div{
+    min-width: 68%;
+    height: 65%;
+    /* border: 2px solid blue; */
+    box-shadow: -3px 3px 10px 1px rgba(0,0,0,0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#sect main section main{
+    /* border: 2px solid pink; */
+    position: absolute;
+    width:50.8%;
+    height: 83%;
+    background-image: linear-gradient(to right, rgba(0,0,0,0) 50%, white);
+}
+#sect main section div p{
+    margin-top: 10px;
+}
+.profile:first-of-type{
+    margin-top: 180px;
+    display: inline-flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile aside img{
+    height: 60px;
+    border-radius: 50%;
+}
+.profile aside h2{
+    font-size: 15px;
+}
+.profile aside h6{
+    font-size: 13px;
+    font-weight: 400;
+    color: #8e9bab;
+    margin-top: 1px ;
+}
+.profile:last-child{
+    margin-top: 10px;
+    display: inline-flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+#sect main section span{
+    display: block;
+    /* border: 2px solid aqua; */
+}
